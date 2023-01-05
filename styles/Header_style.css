@@ -1,15 +1,15 @@
 
 .logo{
     width:80px;
-    margin-right: 30px;
+    
 }
 .logo img{
     min-width: 80px;
     width:100%;
 }
 .menu-block {
-    width: 100%;
-    min-width:548px;
+    width: 90%;
+    min-width:119px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -70,11 +70,12 @@ input:focus{
     width: 20px;
 }
 header {
-    height: 200px;
+    
     width: 94%;
     margin: 0 3%;
     display: inline-flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -95,14 +96,26 @@ header {
     align-items: center;
 }
 .menu ul li {
-    width: 15%;
-    height: 30px;
+    width: 80%;
     border-radius: 15px;
     margin:0;
-    background-color: #FEFAED;
+    margin-bottom:5px;
     display:flex;
     justify-content:center;
 
+}
+.menu ul li ul {
+    margin:0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+}
+
+.menu ul li ul li {
+    width: 20%;
+    height: 30px;
+    min-width: 80px;
+    background-color: #FEFAED;
 }
 .navigation {
     width: 100%;
